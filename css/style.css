@@ -339,21 +339,33 @@ header {
     header .navbar {
         display: none;
     }
+    .header .icons {
+        margin-right: 30px;
+    }
 }
 
 @media screen and (max-width: 450px) {
     #other-informations {
         width: 280px;
     }
+    .header .icons {
+        margin-right: 30px;
+    }
 }
 
-@media screen and (max-width: 400px) and (min-width: 100px) {
+@media screen and (max-width: 400px) and (min-width: 100px){
     #logo .logo img {
         display: inline-block;
         width: 60%;
     }
     #logo {
         width: 130px;
+    }
+    .header .icons {
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        margin-right: 30px;
     }
 }
 
