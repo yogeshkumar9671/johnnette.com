@@ -250,9 +250,17 @@
 .box_3 .container_box>* {
     flex: 1 25%;
 }
+.box_2 .container_box>* {
+    flex: 1 25%;
+}
 
 @media screen and (max-width: 1600px) {
     .box_3 .container_box>* {
+        flex: 1 33%;
+    }
+}
+@media screen and (max-width: 1600px) {
+    .box_2 .container_box>* {
         flex: 1 33%;
     }
 }
