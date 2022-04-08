@@ -1,3 +1,12 @@
+@import url('http://fonts.cdnfonts.com/css/d-din');
+
+* {
+    font-family: 'D-DIN Condensed', sans-serif;
+    font-family: 'D-DIN Exp', sans-serif;
+    font-family: 'D-DIN', sans-serif;
+
+}
+
 .box_container {
     position: relative;
     height: 100vh;
@@ -23,28 +32,37 @@
 .box_container .about_bottom .about_content {
     padding: 20PX;
     color: black;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
-    font-family: montserrat, sans-serif;
+    font-family: 'D-DIN', sans-serif;
     text-align: left;
     text-transform: none;
-    background-color: rgba(255, 255, 255, 0.9);
+    /* background-color: rgba(255, 255, 255, 0.9); */
+    background-color: white;
 }
 
 .box_container .about_bottom .about_mission {
     color: black;
-    font-family: montserrat, sans-serif;
+    font-family: 'D-DIN', sans-serif;
     text-align: center;
     text-transform: none;
     margin-top: 50px;
 }
 
-.box_container .about_bottom .about_mission .vision .header,
-.box_container .about_bottom .about_mission .vision .content,
-.box_container .about_bottom .about_mission .mission .header,
-.box_container .about_bottom .about_mission .mission .content {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
+.vision_header,
+.mission_header{
+    font-family: 'D-DIN', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.vision .header,
+.vision .content,
+.mission .header,
+.mission .content {
+    color: black;
+    font-family: 'D-DIN', sans-serif;
 }
 
 .box_container .about_bottom .about_mission .col-md-6 {
@@ -53,11 +71,11 @@
 
 .box_container .about_bottom .about_mission .col-md-6 .vision {
     padding: 0 20px 20px 20px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: white;
 }
 
 .box_container .about_bottom .about_mission .col-md-6 .vision .header {
-    font-family: montserrat, sans-serif;
+    font-family: 'D-DIN', sans-serif;
     font-weight: 600;
     padding-top: 10px;
     margin-bottom: 50px;
@@ -65,7 +83,7 @@
 
 .box_container .about_bottom .about_mission .col-md-6 .mission {
     padding: 0 20px 20px 20px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: white;
 }
 
 .box_container .about_bottom .about_mission .col-md-6 .mission .header {
@@ -188,6 +206,7 @@
     flex-flow: row wrap;
     justify-content: space-evenly; 
     /* border: 1px solid white; */
+
 } 
 
 .staff .container_box .card{
@@ -206,7 +225,7 @@
 .staff .container_box .card-body .card-text{
     text-align: center; 
     color: white; 
-    font-size: larger; 
+    font-size: 17px; 
     margin-top: 20px;
 } 
 .staff .container_box .card-body a {
@@ -228,10 +247,18 @@
     transform: rotate(360deg);
 }
 
+.box_3 .container_box>* {
+    flex: 1 25%;
+}
+
+@media screen and (max-width: 1600px) {
+    .box_3 .container_box>* {
+        flex: 1 33%;
+    }
+}
 
 
-
-/* ---------------------------------skddmfksiowf----------------------------- */
+/* ---------------------------------awards----------------------------- */
 .awards{
     margin-top: 75px;
     display: inline-block;
