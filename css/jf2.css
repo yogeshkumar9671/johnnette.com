@@ -16,7 +16,7 @@ body {
 
 body {
     font-family: 'D-DIN', sans-serif;
-    font-size: 14px;
+    font-size: 17px;
     color: #000;
     margin: 0;
     padding: 0;
@@ -29,7 +29,7 @@ body {
 
 .swiper-slide {
     text-align: center;
-    font-size: 18px;
+    font-size: 17px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -157,14 +157,14 @@ table {
 .property {
     display: inline;
     text-align: left;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .value {
     text-transform: lowercase;
     display: block;
     text-align: right;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .g_color {
@@ -183,7 +183,7 @@ table {
 
 .list_holder dl dd {
     color: white;
-    font-size: 18px;
+    font-size: 17px;
     padding-bottom: 10px;
 }
 
