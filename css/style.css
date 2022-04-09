@@ -97,6 +97,7 @@ header {
     display: inline-block;
     text-decoration: none;
     /* font-size: 1.5rem; */
+    font-family: 'D-DIN', sans-serif;
     font-size: 14px;
     color: white;
     margin: .5rem 1rem;
@@ -515,6 +516,7 @@ body {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border-radius: .5rem;
+    font-family: 'D-DIN', sans-serif;
 }
 
 .footer-bottom {
