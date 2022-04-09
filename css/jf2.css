@@ -320,13 +320,31 @@ table {
     }
 
     /* .v_slide2 .row .column2, */
-    .h_slide1 .row .column2,
+/*     .h_slide1 .row .column2,
     .h_slide5 .row .column2,
     .h_slide6 .row .column1,
     .h_slide2 .row .column1,
     .h_slide3 .row .column1,
     .h_slide4 .row .column2 {
         height: 10vh;
+        order: 1;
+    } */
+    
+    .h_slide1 .row .column2 {
+        height: 10vh;
+        order: 1;
+    }
+    .h_slide4 .row .column2{
+        height: 9vh;
+        order: 1;
+    }
+    .h_slide2 .row .column1,
+    .h_slide3 .row .column1 {
+        height: 18vh;
+        order: 1;
+    }
+    .h_slide3 .row .column1{
+        height: 18vh;
         order: 1;
     }
 
