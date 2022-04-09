@@ -5,7 +5,7 @@
     spaceBetween: 0,
     speed: 500,
     // effect: 'fade',
-    // freeMode: true,
+    freeMode: true,
     mousewheel: true,
     mousewheel: {
         releaseOnEdges: true,
